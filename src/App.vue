@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header class="pt-2 sticky-top bg-dark text-light">
-      <h2>Comparatore Trasporti di Viaggioo</h2>
+      <h2>Comparatore Trasporti di Viaggio</h2>
       Permette di confrontare automaticamente le diverse opzioni di viaggio per
       viaggi con molteplici trasporti.
       <hr />
@@ -326,7 +326,7 @@ export default {
     eliminaTrasporto(stepIndex) {
       this.$bvModal
         .msgBoxConfirm(
-          "Tutti i dati relativi alla trasporto andranno persi, proseguire?"
+          "Tutti i dati relativi al trasporto andranno persi, proseguire?"
         )
         .then((value) => {
           if (value) this.steps.splice(stepIndex, 1);
