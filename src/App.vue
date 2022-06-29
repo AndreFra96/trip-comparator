@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header class="pt-2 sticky-top bg-dark text-light">
-      <h2>Comparatore Trasporti di Viaggio</h2>
+      <h2>Comparatore Trasporti di Viaggioo</h2>
       Permette di confrontare automaticamente le diverse opzioni di viaggio per
       viaggi con molteplici trasporti.
       <hr />
